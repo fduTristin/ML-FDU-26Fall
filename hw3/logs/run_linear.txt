@@ -1,0 +1,7 @@
+[svm_linear] train=(60000, 784), test=(10000, 784)
+[svm_linear] C=0.001: val_acc=0.9054 (2.2s)
+[svm_linear] C=0.01: val_acc=0.9160 (3.9s)
+[svm_linear] C=0.03: val_acc=0.9188 (7.5s)
+[svm_linear] C=0.1: val_acc=0.9200 (20.4s)
+[svm_linear] best C=0.1, test_acc=0.9182 (refit 21.8s)
+[svm_linear] total wall time: 56.1s

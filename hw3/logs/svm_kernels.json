@@ -1,0 +1,39 @@
+{
+ "tag": "svm_kernels",
+ "task": "mnist",
+ "model": "SVC(kernel compare)",
+ "n_sub": 10000,
+ "n_eval": 5000,
+ "C": 1.0,
+ "gamma": "scale",
+ "results": [
+  {
+   "kernel": "linear",
+   "params": {},
+   "acc": 0.918,
+   "n_support": 2692,
+   "fit_time": 3.6593098640441895,
+   "infer_time": 1.771017074584961
+  },
+  {
+   "kernel": "poly",
+   "params": {
+    "degree": 3,
+    "coef0": 1.0
+   },
+   "acc": 0.9608,
+   "n_support": 2886,
+   "fit_time": 4.269572734832764,
+   "infer_time": 1.8948440551757812
+  },
+  {
+   "kernel": "rbf",
+   "params": {},
+   "acc": 0.9638,
+   "n_support": 3871,
+   "fit_time": 6.071878433227539,
+   "infer_time": 5.889871835708618
+  }
+ ],
+ "time_sec": 23.556493997573853
+}

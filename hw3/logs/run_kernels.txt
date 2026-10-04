@@ -1,0 +1,5 @@
+[svm_kernels] train=(60000, 784), test=(10000, 784)
+[svm_kernels] kernel=linear: acc=0.9180, SVs=2692, fit=3.7s, infer=1.8s
+[svm_kernels] kernel=poly: acc=0.9608, SVs=2886, fit=4.3s, infer=1.9s
+[svm_kernels] kernel=rbf: acc=0.9638, SVs=3871, fit=6.1s, infer=5.9s
+[svm_kernels] total wall time: 23.6s

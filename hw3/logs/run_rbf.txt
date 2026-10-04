@@ -1,0 +1,13 @@
+[svm_rbf] train=(60000, 784), test=(10000, 784)
+[svm_rbf] PCA: 784->50, explained_var=0.8249
+[svm_rbf] C=1, gamma=0.005: val_acc=0.9414, SVs=3884 (0.9s)
+[svm_rbf] C=1, gamma=0.01: val_acc=0.9568, SVs=3394 (0.8s)
+[svm_rbf] C=1, gamma=0.05: val_acc=0.9718, SVs=4716 (1.8s)
+[svm_rbf] C=10, gamma=0.005: val_acc=0.9624, SVs=2465 (0.6s)
+[svm_rbf] C=10, gamma=0.01: val_acc=0.9698, SVs=2540 (0.7s)
+[svm_rbf] C=10, gamma=0.05: val_acc=0.9740, SVs=4807 (1.9s)
+[svm_rbf] C=100, gamma=0.005: val_acc=0.9664, SVs=2254 (0.7s)
+[svm_rbf] C=100, gamma=0.01: val_acc=0.9700, SVs=2584 (0.7s)
+[svm_rbf] C=100, gamma=0.05: val_acc=0.9740, SVs=4808 (1.9s)
+[svm_rbf] best C=10, gamma=0.05, test_acc=0.9791, SVs=7592 (refit 6.5s)
+[svm_rbf] total wall time: 29.0s
