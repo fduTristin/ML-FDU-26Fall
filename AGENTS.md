@@ -16,7 +16,7 @@
 
 - 模板文件：`latex-template/report-template.tex`
 - 模板已内置姓名 `徐厚泽`、学号 `26113050327`、课程 `2026 机器学习`。
-- 本地编译生成 PDF，命名为 `hw-{number}.pdf`
+- 编译生成 PDF，命名为 `hw-{number}.pdf` 并推送
 
 ## 环境
 
