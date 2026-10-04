@@ -1,0 +1,4 @@
+# MNIST 原始数据与训练运行日志不上传
+data/
+logs/run_*.txt
+__pycache__/
