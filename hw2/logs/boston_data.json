@@ -1,0 +1,26 @@
+{
+ "n_samples": 506,
+ "n_features": 13,
+ "feature_names": [
+  "crim",
+  "zn",
+  "indus",
+  "chas",
+  "nox",
+  "rm",
+  "age",
+  "dis",
+  "rad",
+  "tax",
+  "ptratio",
+  "b",
+  "lstat"
+ ],
+ "n_train": 323,
+ "n_val": 80,
+ "n_test": 103,
+ "y_min": 5.0,
+ "y_max": 50.0,
+ "y_mean": 22.532806324110677,
+ "tag": "boston_data"
+}
