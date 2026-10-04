@@ -1,7 +1,6 @@
 # MNIST/Boston 原始数据与 LaTeX 中间产物不上传
 data/
 __pycache__/
-hw-2.pdf
 report/*.aux
 report/*.log
 report/*.out
