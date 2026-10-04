@@ -1,0 +1,154 @@
+% !TeX program = xelatex
+\documentclass[UTF8,zihao=-4]{ctexart}
+
+% -------------------- 页面与基础设置 --------------------
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\linespread{1.25}\selectfont
+\setlength{\parindent}{2em}
+
+% -------------------- 数学与排版 --------------------
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+
+% -------------------- 基本信息宏 --------------------
+\newcommand{\ReportCourse}{2026 机器学习}
+\newcommand{\ReportNo}{1}
+\newcommand{\ReportName}{徐厚泽}
+\newcommand{\ReportStudentID}{26113050327}
+
+% -------------------- 页眉页脚 --------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% -------------------- 代码样式 --------------------
+\lstdefinestyle{PythonCode}{
+  language=Python,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  xleftmargin=2.2em,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue!70!black}\bfseries,
+  stringstyle=\color{green!40!black},
+  commentstyle=\color{gray!70!black},
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=flexible,
+  frame=single,
+  rulecolor=\color{black!20},
+  backgroundcolor=\color{black!3}
+}
+\lstset{style=PythonCode}
+
+% -------------------- 图表与列表样式 --------------------
+\captionsetup{font=small,labelfont=bf,labelsep=quad}
+\setlist{itemsep=0.25em,topsep=0.25em,parsep=0pt,partopsep=0pt}
+
+% -------------------- 常用自定义命令 --------------------
+\newcommand{\mlExperiment}[2]{\subsection{实验#1：#2}}
+\newcommand{\mlConclusion}[1]{\par\noindent\textbf{结论#1：}}
+
+\begin{document}
+
+% -------------------- 封面 --------------------
+\begin{titlepage}
+  \centering
+  \vspace*{1.2cm}
+  {\heiti\zihao{1}\ReportCourse\par}
+  \vspace{1.5em}
+  {\heiti\zihao{1}课程报告\ReportNo\par}
+  \vfill
+  {\kaishu\zihao{-3}姓名：\ReportName\par}
+  \vspace{0.8em}
+  {\kaishu\zihao{-3}学号：\ReportStudentID\par}
+  \vfill
+\end{titlepage}
+
+% -------------------- 正文 --------------------
+\section{任务描述}
+简要描述本次作业的任务目标、要解决的问题、数据来源以及评价指标。
+
+\section{数据描述}
+介绍数据集的来源、样本规模、特征含义、训练集/测试集划分方式等信息。
+
+\section{数据预处理}
+说明数据格式转换、归一化/标准化、采样、降维、数据增强等预处理操作，并给出关键代码。
+
+\begin{lstlisting}
+import numpy as np
+
+# 示例：读入数据并做预处理
+x_train = np.load("x_train.npy")
+
+x_train = x_train.reshape(len(x_train), -1).astype("float32") / 255.
+\end{lstlisting}
+
+\section{算法介绍}
+\subsection{算法原理}
+说明所实现或对比的算法的基本思想、适用场景和关键步骤。
+
+\subsection{算法实现}
+说明算法的实现流程，并给出伪代码、核心代码或模块划分。
+
+\begin{lstlisting}
+def predict(self, x_test):
+    # 示例：实现核心预测流程
+    results = []
+    return np.array(results)
+\end{lstlisting}
+
+\section{实验结果及分析}
+
+\mlExperiment{5.1}{baseline}
+说明 baseline 实验设置，包括训练样本数量、测试样本数量、关键超参数和评价方式。
+
+\begin{figure}[H]
+  \centering
+  \fbox{\parbox[c][4cm][c]{0.68\textwidth}{\centering 请在此放置 baseline 实验图}}
+  \caption{baseline 实验结果}
+  \label{fig:baseline}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \caption{baseline 实验结果对比}
+  \label{tab:baseline}
+  \begin{tabular}{lcc}
+    \toprule
+    方法 & 准确率 & 运行时间/s \\
+    \midrule
+    baseline & 0.0000 & 0.000 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\mlConclusion{1}
+根据实验结果总结第一条结论，例如方法是否有效、瓶颈在哪里、是否可以进一步优化等。
+
+\mlExperiment{5.2}{改进实验}
+说明改进实验的动机、设置和实现方式。
+
+\mlConclusion{2}
+根据实验结果总结第二条结论。
+
+\section{总结}
+总结本次作业完成的工作、得到的主要结论、遇到的问题以及后续可以改进的方向。
+
+% 如果需要参考文献，可以在此添加 references.bib，并取消以下注释：
+% \bibliographystyle{plain}
+% \bibliography{references}
+
+\end{document}
