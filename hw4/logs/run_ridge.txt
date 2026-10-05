@@ -1,0 +1,31 @@
+[check] ridge_coef_maxdiff_alpha0.1=2.22e-15  ridge_coef_maxdiff_alpha10.0=7.99e-15  lasso_coef_maxdiff_alpha0.001=5.02e-07  lasso_coef_maxdiff_alpha0.1=1.66e-07
+[boston_ridge] alpha=0.0001: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.000177828: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.000316228: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.000562341: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.001: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.00177828: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.00316228: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.00562341: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.01: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.0177828: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.0316228: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.0562341: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.1: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.177828: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.316228: val RMSE=4.849k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=0.562341: val RMSE=4.847k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=1: val RMSE=4.845k$  train RMSE=4.668k$  n_nonzero=13
+[boston_ridge] alpha=1.77828: val RMSE=4.840k$  train RMSE=4.669k$  n_nonzero=13
+[boston_ridge] alpha=3.16228: val RMSE=4.834k$  train RMSE=4.671k$  n_nonzero=13
+[boston_ridge] alpha=5.62341: val RMSE=4.827k$  train RMSE=4.676k$  n_nonzero=13
+[boston_ridge] alpha=10: val RMSE=4.823k$  train RMSE=4.690k$  n_nonzero=13
+[boston_ridge] alpha=17.7828: val RMSE=4.832k$  train RMSE=4.718k$  n_nonzero=13
+[boston_ridge] alpha=31.6228: val RMSE=4.872k$  train RMSE=4.772k$  n_nonzero=13
+[boston_ridge] alpha=56.2341: val RMSE=4.970k$  train RMSE=4.866k$  n_nonzero=13
+[boston_ridge] alpha=100: val RMSE=5.157k$  train RMSE=5.018k$  n_nonzero=13
+[boston_ridge] alpha=177.828: val RMSE=5.466k$  train RMSE=5.255k$  n_nonzero=13
+[boston_ridge] alpha=316.228: val RMSE=5.914k$  train RMSE=5.602k$  n_nonzero=13
+[boston_ridge] alpha=562.341: val RMSE=6.490k$  train RMSE=6.056k$  n_nonzero=13
+[boston_ridge] alpha=1000: val RMSE=7.146k$  train RMSE=6.584k$  n_nonzero=13
+[boston_ridge] ridge: best alpha=10 -> test RMSE=4.694k$  MAE=3.091k$  R2=0.6874  n_nonzero=13

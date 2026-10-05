@@ -1,0 +1,2 @@
+[check] ridge_coef_maxdiff_alpha0.1=2.22e-15  ridge_coef_maxdiff_alpha10.0=7.99e-15  lasso_coef_maxdiff_alpha0.001=5.02e-07  lasso_coef_maxdiff_alpha0.1=1.66e-07
+[boston_ols] OLS: test RMSE=4.732k$  R2=0.6824

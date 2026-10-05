@@ -1,0 +1,10 @@
+# MNIST/Boston 原始数据与 LaTeX 中间产物不上传
+data/
+__pycache__/
+report/*.aux
+report/*.log
+report/*.out
+report/*.pdf
+report/*.fdb_latexmk
+report/*.fls
+report/*.xdv

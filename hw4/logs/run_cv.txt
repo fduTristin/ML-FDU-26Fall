@@ -1,0 +1,12 @@
+[boston_cv] ridge fold 1/5: alpha=0.0001  RMSE=5.013k$  R2=0.6573
+[boston_cv] ridge fold 2/5: alpha=31.6228  RMSE=4.693k$  R2=0.7196
+[boston_cv] ridge fold 3/5: alpha=10  RMSE=5.136k$  R2=0.7100
+[boston_cv] ridge fold 4/5: alpha=5.62341  RMSE=4.837k$  R2=0.7760
+[boston_cv] ridge fold 5/5: alpha=5.62341  RMSE=4.741k$  R2=0.6875
+[boston_cv] ridge 5-fold CV: RMSE=4.884±0.167k$  R2=0.7101±0.0393
+[boston_cv] lasso fold 1/5: alpha=0.0001  RMSE=5.013k$  R2=0.6573
+[boston_cv] lasso fold 2/5: alpha=0.316228  RMSE=4.936k$  R2=0.6897
+[boston_cv] lasso fold 3/5: alpha=0.14678  RMSE=5.217k$  R2=0.7008
+[boston_cv] lasso fold 4/5: alpha=0.0464159  RMSE=4.818k$  R2=0.7777
+[boston_cv] lasso fold 5/5: alpha=0.0215443  RMSE=4.741k$  R2=0.6874
+[boston_cv] lasso 5-fold CV: RMSE=4.945±0.165k$  R2=0.7026±0.0402

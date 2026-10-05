@@ -1,0 +1,27 @@
+[check] ridge_coef_maxdiff_alpha0.1=2.22e-15  ridge_coef_maxdiff_alpha10.0=7.99e-15  lasso_coef_maxdiff_alpha0.001=5.02e-07  lasso_coef_maxdiff_alpha0.1=1.66e-07
+[boston_lasso] alpha=1: val RMSE=5.655k$  train RMSE=5.411k$  n_nonzero=4
+[boston_lasso] alpha=0.681292: val RMSE=5.450k$  train RMSE=5.295k$  n_nonzero=5
+[boston_lasso] alpha=0.464159: val RMSE=5.248k$  train RMSE=5.171k$  n_nonzero=9
+[boston_lasso] alpha=0.316228: val RMSE=5.023k$  train RMSE=5.011k$  n_nonzero=9
+[boston_lasso] alpha=0.215443: val RMSE=4.888k$  train RMSE=4.886k$  n_nonzero=12
+[boston_lasso] alpha=0.14678: val RMSE=4.825k$  train RMSE=4.776k$  n_nonzero=12
+[boston_lasso] alpha=0.1: val RMSE=4.812k$  train RMSE=4.720k$  n_nonzero=12
+[boston_lasso] alpha=0.0681292: val RMSE=4.814k$  train RMSE=4.692k$  n_nonzero=12
+[boston_lasso] alpha=0.0464159: val RMSE=4.820k$  train RMSE=4.679k$  n_nonzero=12
+[boston_lasso] alpha=0.0316228: val RMSE=4.826k$  train RMSE=4.673k$  n_nonzero=12
+[boston_lasso] alpha=0.0215443: val RMSE=4.831k$  train RMSE=4.671k$  n_nonzero=12
+[boston_lasso] alpha=0.014678: val RMSE=4.835k$  train RMSE=4.669k$  n_nonzero=12
+[boston_lasso] alpha=0.01: val RMSE=4.839k$  train RMSE=4.669k$  n_nonzero=13
+[boston_lasso] alpha=0.00681292: val RMSE=4.842k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.00464159: val RMSE=4.845k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.00316228: val RMSE=4.847k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.00215443: val RMSE=4.848k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.0014678: val RMSE=4.849k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.001: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.000681292: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.000464159: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.000316228: val RMSE=4.850k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.000215443: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.00014678: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] alpha=0.0001: val RMSE=4.851k$  train RMSE=4.668k$  n_nonzero=13
+[boston_lasso] lasso: best alpha=0.1 -> test RMSE=4.663k$  MAE=3.051k$  R2=0.6917  n_nonzero=12
